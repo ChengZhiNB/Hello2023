@@ -1,0 +1,20 @@
+name: Hello2023
+version: '1.0-SNAPSHOT'
+main: cn.ChengZhiYa.Hello2023.main
+api-version: 1.18
+authors: [ ChengZhiYa ]
+description: qwq
+commands:
+  hello2023:
+    description: 开始新的一年
+    permission: Hello.op
+  hellonewyears:
+    description: 玩家执行
+    permission: Hello.default
+permissions:
+  Hello.op:
+    description: op默认权限
+    default: op
+  Hello.default:
+    description: 玩家默认权限
+    default: true
